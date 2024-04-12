@@ -1,0 +1,153 @@
+.header {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(pictures/london1.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.text-box {
+    color: white;
+    font-size: 25px;
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    text-align: center;
+}
+
+p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.menu {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 10px;
+    flex: 1;
+    text-align: right;
+    max-width: 600px;
+
+    padding: 8px 12px;
+
+}
+
+li a:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.intro {
+    color: cornflowerblue;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.name {
+    font-family: serif;
+    font-size: larger;
+    color: rgb(145, 177, 206);
+}
+
+.about {
+    display: flex;
+    max-width: 800px;
+
+}
+
+.contact {
+    font-size: larger;
+    background-color: rgb(15, 15, 39);
+    color: skyblue;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.contact:hover {
+    box-shadow: 5px 5px 5px lime;
+    transition: 1s;
+    opacity: 0.7;
+
+}
+
+.connect {
+    background-color: rgb(15, 15, 39);
+    margin-top: 0px;
+}
+
+
+input {
+    margin: 15px;
+    height: 40px;
+    width: 400px;
+    border-radius: 15px;
+    border-color: skyblue;
+    background-color: rgb(15, 15, 39);
+    padding-left: 20px;
+    color: white;
+}
+
+textarea {
+    border-color: skyblue;
+    background-color: rgb(15, 15, 39);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.submit {
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #5673C8;
+
+}
+@media(max-width:700px) {
+    p {
+        font-size: 20px;
+    }
+
+    .menu{
+        position: absolute;
+        background: navy;
+        height: 50vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        display: block;
+
+    }
+}
+
+
